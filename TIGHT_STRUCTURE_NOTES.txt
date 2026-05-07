@@ -1,0 +1,24 @@
+TIGHT STRUCTURE UPDATE
+
+This version makes the site cleaner and more viral by separating page roles:
+
+Homepage:
+- Four-lane command center
+- Shop Cards
+- Sell / Consign Cards
+- View Bounties
+- Star Rare Vault
+
+Bounty Board + Grail Garage:
+- Main viral engine
+- Copy-ready sharing messages
+- Featured bounty / grail submissions
+
+Vault:
+- Prestige and verified records
+
+Sell page:
+- Conversion and collection intake
+
+Marketplace:
+- Shopping and featured drops

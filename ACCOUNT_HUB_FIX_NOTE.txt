@@ -1,0 +1,20 @@
+ACCOUNT HUB FIX
+
+What changed:
+- Account page now detects if the user is already logged in.
+- Logged-in users see an Account Hub instead of login/register forms.
+- Account Hub shows:
+  - Dashboard
+  - Messages
+  - Bounty Board
+  - Vault + Grail Garage
+  - Sell / Consign
+  - Admin card if the user is admin
+  - latest bounty preview
+- Messages bell/tab is hidden until a user is logged in.
+- Account nav label changes to My Account once authenticated.
+
+If testing:
+- Log in at auth.html
+- Return to auth.html
+- You should see your account tools instead of the login forms.

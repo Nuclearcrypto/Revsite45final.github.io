@@ -1,0 +1,9 @@
+BOUNTY BOARD SUBMISSION GARAGE UPDATE
+
+What changed:
+- Added a full Submit a Bounty form directly on bounty.html.
+- Styled the new intake area as a premium garage / intake bay.
+- Added a login-aware bounty submission flow on bounty.html.
+- Visitors can see the form and are redirected to login when they submit.
+- Logged-in users can submit directly from the bounty board.
+- Existing dashboard submission form still works.

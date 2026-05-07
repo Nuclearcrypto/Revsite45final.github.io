@@ -1,0 +1,1 @@
+Updated bounty.html to incorporate the new generated bounty-board image as the main featured bounty backdrop and the bounty garage visual. Added image file: images/bounty-board-garage-bg.webp

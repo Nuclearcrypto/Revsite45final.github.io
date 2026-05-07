@@ -1,0 +1,12 @@
+LOGIN VISIBILITY FIX
+
+Fixes:
+- Visitors always see the Account/Login link.
+- Visitors see login/register forms on auth.html.
+- Messages tab is hidden until the user is logged in.
+- Logged-in users see My Account and Messages.
+- Account link is never treated as auth-only.
+
+Validation problems found:
+0
+[]

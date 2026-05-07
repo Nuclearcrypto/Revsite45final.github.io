@@ -1,0 +1,18 @@
+BOUNTY SUBMISSION FIX
+
+Problem:
+Dashboard bounty form stayed on "Submitting bounty..." and no bounty appeared.
+
+Fix:
+revnrip-auth.js now:
+- checks for a valid user session
+- ensures the profile exists
+- disables/re-enables the submit button correctly
+- inserts the bounty using a schema-safe payload
+- calls .select().single() to force a clear Supabase response
+- shows exact Supabase errors instead of getting stuck
+- reloads "My Bounties" after success
+
+If you still get an error:
+Run FIX_bounty_submission_rls.sql in Supabase SQL Editor.
+That file refreshes the user bounty RLS policies.

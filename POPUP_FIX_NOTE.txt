@@ -1,0 +1,22 @@
+POPUP FIX
+
+The popup now loads from:
+revnrip-site.js
+
+Every HTML page includes:
+<script src="revnrip-site.js"></script>
+
+Logo path inside the popup:
+./images/revnrip_logo_transparent.png
+
+Logo exists:
+True
+
+Missing script pages:
+[]
+
+If testing repeatedly, remember the popup only shows once per browser session.
+To test again:
+- open an incognito/private window, or
+- clear sessionStorage in the browser console:
+  sessionStorage.removeItem('revnrip_popup_seen_v6')

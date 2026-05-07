@@ -1,0 +1,18 @@
+ACCOUNT SESSION HARD FIX
+
+This update replaces revnrip-auth.js with a stronger session-aware system.
+
+Fixes:
+- Account page checks Supabase getSession() first, then getUser().
+- Supabase client uses persistSession, autoRefreshToken, and detectSessionInUrl.
+- Logged-in users see account tools on auth.html.
+- Visitors see login/register forms.
+- Login no longer redirects away unless a return URL exists.
+- Email signup includes emailRedirectTo pointing back to auth.html.
+- Messages tab remains hidden for visitors and shows after authentication.
+
+If you still see login after logging in:
+1. Hard refresh the page.
+2. Clear site data/cache for your domain.
+3. Confirm auth.html includes supabase-config.js and revnrip-auth.js.
+4. Confirm Supabase Authentication > URL Configuration uses your live site URL.

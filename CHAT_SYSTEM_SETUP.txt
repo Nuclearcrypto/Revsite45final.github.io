@@ -1,0 +1,33 @@
+REV-N-RIP INTERNAL CHAT SETUP
+
+This package adds private user messaging.
+
+New files:
+- messages.html
+- conversation.html
+- revnrip-chat.js
+- supabase-chat-setup.sql
+
+Setup:
+1. Make sure the normal login system already works.
+2. In Supabase SQL Editor, run:
+   supabase-chat-setup.sql
+
+3. In Supabase Realtime settings, confirm Realtime is enabled for:
+   - messages
+   - conversations
+   - conversation_members
+
+The SQL file attempts to add these tables to supabase_realtime publication automatically.
+
+How it works:
+- Users must be logged in.
+- Clicking "I Have This" opens messages.html with the bounty loaded.
+- The message is sent to the bounty owner.
+- For Rev-N-Rip site-created bounties, it routes to the first admin profile.
+- Users see unread conversations via the bell icon.
+- Conversations can be reported.
+
+Important:
+You need at least one admin profile for site bounties to route correctly:
+update public.profiles set is_admin = true where email = 'YOUR_EMAIL_HERE';

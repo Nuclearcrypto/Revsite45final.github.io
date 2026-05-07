@@ -1,0 +1,8 @@
+Bounty Board mission-control update:
+- Featured bounty is shorter and part of a two-column mission-control top layout.
+- Submit Your Bounty is a collapsible garage-door panel.
+- Static bounties are now compact cards.
+- Community bounties load into the same unified board grid.
+- Long explanations were replaced with tighter microcopy.
+- Sticky quick controls added: Featured, Submit, Board, Pokémon, MetaZoo, My Account.
+- Filters apply to compact bounty cards and community bounties.

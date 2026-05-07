@@ -1,0 +1,40 @@
+REV-N-RIP FULL LOGIN VERSION
+
+This package adds:
+- auth.html
+- dashboard.html
+- admin.html
+- supabase-config.js
+- revnrip-auth.js
+- supabase-setup.sql
+- public approved user bounties on bounty.html
+
+SETUP STEPS
+
+1. Create a Supabase project.
+2. Run supabase-setup.sql in Supabase SQL Editor.
+3. Open supabase-config.js and replace:
+   YOUR_SUPABASE_PROJECT_URL
+   YOUR_SUPABASE_ANON_PUBLIC_KEY
+
+4. Upload all files in this ZIP to your GitHub repo root.
+
+5. Create your account at:
+   auth.html
+
+6. In Supabase SQL Editor, make yourself admin:
+   update public.profiles set is_admin = true where email = 'YOUR_EMAIL_HERE';
+
+7. Use:
+   dashboard.html
+   to submit bounties as a user.
+
+8. Use:
+   admin.html
+   to approve/reject bounties.
+
+SECURITY NOTES
+
+Never put your Supabase service role key in browser code.
+Only use the public anon key in supabase-config.js.
+RLS policies in supabase-setup.sql protect user bounty records.

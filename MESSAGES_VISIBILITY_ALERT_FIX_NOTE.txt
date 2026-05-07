@@ -1,0 +1,13 @@
+MESSAGES VISIBILITY + ALERT FIX
+
+What changed:
+- Messages tab is hidden by default with CSS.
+- Messages tab only appears after Supabase confirms an active logged-in session.
+- The Account label changes to My Account after authentication.
+- Unread message bell count appears only when unread conversations exist.
+- Bell gets a highlighted glow when unread count is greater than zero.
+- The unread count updates on message/member realtime changes.
+
+Validation:
+Messages links missing auth-only class: 0
+[]

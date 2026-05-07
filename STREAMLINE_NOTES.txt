@@ -1,0 +1,14 @@
+STREAMLINE UPDATE
+
+The homepage/front experience has been simplified by removing:
+1. Collector Type Quiz
+2. Mystery Door
+
+Reason:
+These were fun engagement pieces, but they could distract first-time visitors from the main paths:
+- Shop Cards
+- Sell Cards
+- Live Breaks
+- Star Rare Vault
+
+Upload all files in this ZIP directly into your GitHub repo root.

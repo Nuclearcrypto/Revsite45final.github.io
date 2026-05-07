@@ -1,0 +1,14 @@
+SUPABASE SECURITY NOTE
+
+The public/publishable key has been added to supabase-config.js.
+
+You still need to replace:
+YOUR_SUPABASE_PROJECT_URL
+
+with your Supabase Project URL from:
+Project Settings > API > Project URL
+
+DO NOT add your Supabase secret key to any website file.
+Because the secret key was shared, rotate/delete it in Supabase immediately and generate a new one if needed.
+
+Only the publishable/public key belongs in browser code.

@@ -1,0 +1,16 @@
+IMAGE + ARCHIVE FIX
+
+Images are stored in:
+images/
+
+All local image references were normalized to:
+./images/filename
+
+Missing image references found during build:
+0
+
+Vault page changes:
+- Big archive door section removed
+- Small Star Rares / Pokémon toggle added
+- Featured Relic section removed
+- Current entries remain under Star Rares

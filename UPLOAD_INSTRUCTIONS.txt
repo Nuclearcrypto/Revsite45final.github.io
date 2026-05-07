@@ -1,0 +1,27 @@
+REV-N-RIP SEAMLESS FORMS + POPUP PACKAGE
+
+Upload EVERYTHING inside this ZIP directly to your existing GitHub repo root.
+
+This version includes:
+- revnrip-site.js
+- fixed popup loader
+- form handling for every form
+- fallback pre-filled email if Formspree is not connected yet
+- friendly messages instead of dead submit buttons
+
+IMPORTANT:
+To make forms fully submit on the page, replace:
+YOUR_FORMSPREE_FORM_ID
+
+with your real Formspree ID inside:
+- revnrip-site.js
+- all HTML files
+
+Without Formspree, forms will open a pre-filled email to:
+Info.revnrip@gmail.com
+
+For image/file uploads, a real form backend like Formspree is still required.
+The email fallback cannot automatically attach images, but it will tell users to attach them.
+
+After uploading, test with:
+?v=seamless1

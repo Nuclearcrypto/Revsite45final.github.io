@@ -1,0 +1,7 @@
+COPY LINK ICON UPDATE
+
+What changed:
+- Removed visible "Copy Link" text buttons from the Bounty Board.
+- Replaced them with a small subtle copy icon button.
+- Copy icons are positioned in the upper-right corner of each bounty box/card.
+- Existing copy-link functionality remains intact.

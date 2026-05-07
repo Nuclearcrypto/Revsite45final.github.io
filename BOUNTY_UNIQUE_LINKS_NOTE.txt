@@ -1,0 +1,12 @@
+BOUNTY UNIQUE LINKS
+
+Each bounty entry now has its own URL anchor:
+
+bounty.html#sacred-fire-5-10
+bounty.html#metazoo-red-ink-blue-ink
+bounty.html#psa-10-umbreon
+bounty.html#sealed-vintage-pokemon
+bounty.html#native-serialized-metazoo
+bounty.html#high-end-slabs
+
+The Bounty Board page includes Copy Link buttons that automatically generate the full current URL for each bounty.

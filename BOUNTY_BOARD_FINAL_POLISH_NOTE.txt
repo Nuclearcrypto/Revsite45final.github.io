@@ -1,0 +1,10 @@
+BOUNTY BOARD FINAL POLISH
+
+Updated bounty.html:
+- Added subtle animated glow to Featured Bounty section.
+- Added moving shimmer pass across Featured Bounty section.
+- Added lightweight parallax background movement on scroll.
+- Removed the Viral Role strip from the Bounty Board page.
+- Moved Submit Your Bounty / garage intake above the bounty listings.
+- Added bounty filters: All, Pokémon, MetaZoo.
+- Added data categories to static bounty entries.

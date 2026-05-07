@@ -1,0 +1,19 @@
+IMAGE FOLDER VERSION
+
+All images are now inside one folder:
+
+images/
+
+Upload everything inside this ZIP directly into your GitHub repo root.
+
+Correct structure:
+repo/index.html
+repo/bounty.html
+repo/syndicate.html
+repo/revnrip-site.js
+repo/images/revnrip_logo_transparent.png
+repo/images/img-001-70fd12afb604.webp
+repo/images/img-002-ff872382bee0.png
+
+Do not upload only the HTML files.
+Do not rename the images folder unless you update the code paths.

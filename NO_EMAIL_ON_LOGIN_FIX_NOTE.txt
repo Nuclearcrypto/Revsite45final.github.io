@@ -1,0 +1,19 @@
+NO EMAIL APP ON LOGIN FIX
+
+Problem:
+The generic website form handler was catching login/register/dashboard forms.
+When Formspree was not configured, it opened a pre-filled email fallback.
+
+Fix:
+- revnrip-site.js now ignores Supabase-controlled forms.
+- Login/register forms are handled only by revnrip-auth.js.
+- Dashboard bounty form is handled only by Supabase.
+- Message forms are handled only by revnrip-chat.js.
+- Contact/sell/grail forms still use Formspree or email fallback as intended.
+
+Affected protected form IDs:
+- loginForm
+- registerForm
+- bountyForm
+- startMessageForm
+- messageComposer

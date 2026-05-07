@@ -1,0 +1,15 @@
+SQL ERROR FIX
+
+Error:
+cannot change name of view column "title" to "user_id"
+
+Cause:
+Postgres does not allow CREATE OR REPLACE VIEW to change an existing view's column order/name layout.
+
+Fix:
+The updated supabase-chat-setup.sql now drops public.user_bounties_public first, then recreates it.
+
+You can either:
+1. Run FIX_user_bounties_public_view.sql by itself, then rerun supabase-chat-setup.sql
+or
+2. Run the updated supabase-chat-setup.sql from this package.

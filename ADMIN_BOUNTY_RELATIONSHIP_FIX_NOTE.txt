@@ -1,0 +1,23 @@
+ADMIN BOUNTY RELATIONSHIP FIX
+
+Problem:
+Supabase returned:
+Could not find a relationship between 'user_bounties' and 'profiles' in the schema cache
+
+Cause:
+The admin code tried to load user_bounties with an embedded profiles join:
+user_bounties -> profiles
+
+But the database does not have a direct foreign key from user_bounties.user_id to profiles.id.
+
+Fix:
+revnrip-auth.js was updated so the admin page:
+1. Loads user_bounties
+2. Collects the user_id values
+3. Loads matching profiles separately
+4. Merges them in the browser
+
+No database relationship is required.
+
+Optional:
+OPTIONAL_direct_bounty_profile_fk.sql is included if you want to add a direct FK later, but it is not required for this fixed package.

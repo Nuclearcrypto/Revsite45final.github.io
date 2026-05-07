@@ -1,0 +1,13 @@
+SUPABASE CONFIGURED
+
+Project URL set to:
+https://qbrrbanvyvdpqzhlclck.supabase.co
+
+Public/publishable key has been added.
+
+Important:
+The API URL you provided included /rest/v1/.
+For the Supabase JavaScript client, the website should use the base project URL:
+https://qbrrbanvyvdpqzhlclck.supabase.co
+
+Do not put the Supabase secret key in any website file.

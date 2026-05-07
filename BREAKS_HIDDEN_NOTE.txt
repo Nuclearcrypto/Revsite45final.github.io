@@ -1,0 +1,11 @@
+LIVE BREAKS HIDDEN
+
+The Live Breaks page is still included as breaks.html for future use.
+
+Current change:
+- Removed Live Breaks from main navigation
+- Removed Live Breaks from mobile nav
+- Replaced break CTAs with Shop Cards / Marketplace CTAs
+- Added a future-use notice to breaks.html
+
+When ready to launch breaks again, ask to restore Live Breaks to the navigation.

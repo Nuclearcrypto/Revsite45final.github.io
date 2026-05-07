@@ -1,0 +1,12 @@
+PRIVATE ADMIN NAV BUTTON
+
+What changed:
+- Added an Admin button to the top navigation.
+- Admin button is hidden by default.
+- Admin button only appears after login if:
+  email = xflight1125@gmail.com
+  OR
+  profile username = Metazoo King
+
+Important:
+The button is a visibility convenience. Admin page access is also restricted in revnrip-auth.js using the same check.

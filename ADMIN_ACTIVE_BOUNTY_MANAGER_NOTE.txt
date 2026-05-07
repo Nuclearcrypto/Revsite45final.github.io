@@ -1,0 +1,14 @@
+ADMIN ACTIVE BOUNTY MANAGER
+
+What changed:
+- admin.html now has an Active Bounties section.
+- Admin can view approved/live user-submitted bounties.
+- Admin can edit live bounty details.
+- Admin can move a live bounty back to pending.
+- Admin can deny a live bounty with a message/note.
+- Admin can permanently delete a live bounty after typing DELETE.
+- Delete attempts to notify the user through internal Messages.
+
+Optional SQL:
+If Delete Forever fails due to RLS, run:
+SUPABASE_admin_delete_bounties_policy.sql

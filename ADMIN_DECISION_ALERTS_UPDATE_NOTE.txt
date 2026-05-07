@@ -1,0 +1,13 @@
+ADMIN DECISION ALERTS UPDATE
+
+What changed:
+- Admin approval bay now only shows pending bounties.
+- After Approve or Deny, the bounty is removed from the admin list.
+- Deny button prompts for a denial reason.
+- Denial reason is saved to user_bounties.admin_response if the SQL add-on has been run.
+- User's My Bounties view shows the denial reason.
+- Approved and denied bounties trigger an internal site message to the bounty owner.
+- If the chat tables are not set up, the status still updates but the admin page shows the message alert error.
+
+Required SQL:
+Run SUPABASE_bounty_decision_notes.sql in Supabase SQL Editor.

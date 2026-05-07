@@ -1,0 +1,17 @@
+VAULT + GRAIL GARAGE COMBINED
+
+The main archive page is:
+syndicate.html
+
+It now has two sections:
+1. Star Rares
+2. Pokémon
+
+All current entries are under Star Rares.
+
+When adding future entries, specify:
+- Star Rares
+or
+- Pokémon
+
+The old grail-garage.html file remains as a light transition page for existing links.
